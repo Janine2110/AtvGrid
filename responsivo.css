@@ -1,0 +1,96 @@
+
+@media screen and ((min-width:469px) and (max-width:768px)){
+    .logo{
+        display: none;
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1.4rem 0;
+    }
+    .receita{
+        grid-template-columns: 1fr;
+    }
+    .titulo__banner{
+        font-size: 2.6rem;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    }
+    .titulo__sec2{
+        font-size: 2.6rem;
+        text-align: center;
+    }
+    .ancora2{
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2rem;
+        color: var(--cinza);
+    }
+    .paragrafo__sec2{
+        font-size: 1.8rem;
+    }
+    .pessoas__sec3{
+        margin: 9rem 0;
+        display: grid;
+        gap: 4rem;
+        grid-template-columns: 1fr
+    }
+    .titulo__sec3{
+        font-size: 3rem;
+    }
+    .paragrafo__sec3{
+        font-size: 1.8rem;
+    }
+}
+@media screen and ((max-width:468px)){
+    .logo{
+        display: inline;
+    }
+    .menu{
+        display: none;
+    }
+    .menu__hamburguer{
+        display: inline;
+        width: 2rem;
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+        justify-content: space-evenly;
+        gap: 13rem;
+    }
+    .titulo__banner{
+        font-size: 1.6rem;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    }
+    .sec1{
+        height: 36vh;
+    }
+    .sec2{
+        padding: 4rem;
+    }
+    .titulo__sec2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .paragrafo__sec2{
+        font-size: 1rem;
+    }
+    .container__sec2{
+        gap: 1.5rem;
+    }
+    .receita{
+        grid-template-columns: 1fr;
+    }
+    .titulo__sec3{
+        font-size: 2.5rem;
+    }
+    .paragrafo__sec3{
+        font-size: 1.2rem;
+    }
+    .pessoas__sec3{
+        margin: 9rem 0;
+        display: grid;
+        gap: 4rem;
+        grid-template-columns: 1fr
+    }
+}

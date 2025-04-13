@@ -1,0 +1,166 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__lista{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+.ancora2{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    color: var(--cinza);
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+.sec2{
+    display: flex;
+    padding: 7rem;
+    flex-direction: column;
+    align-items: center;
+}
+.container__sec2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.3rem;
+}
+.paragrafo__sec2{
+    font-family: "Roboto", sans-serif;
+    color: var(--cinza);
+    font-size: 2.3rem;
+    font-weight: 300;
+    text-align: center;
+
+}
+.titulo__banner{
+    font-size: 7rem;
+    color: var(--branco);
+}
+.titulo__sec2{
+    font-family: "Pacifico", cursive;
+    font-size: 4rem;
+    color: var(--vermelho);
+}
+.receita{
+    padding: 6rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 2rem;
+    margin: 4rem 0;
+    background-color: #e0e0e0;
+    
+}
+.card{
+    margin: 3rem 0;
+    width: 17.87rem;
+    height: 24rem;
+    background-color: var(--branco);
+    border: 1px;
+}
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.card__titulo{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+.card__texto{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.card__botao{
+    width: 6rem;
+    height: 2rem;
+    background-color: var(--vermelho);
+    border-radius: 5px;
+    border: none;
+}
+.ancora3{
+    font-family: "Roboto", sans-serif;
+    color: var(--branco);
+    font-weight: 300;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 0;
+}
+.sec3__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.titulo__sec3{
+    color: var(--vermelho);
+    font-size: 4rem;
+}
+.paragrafo__sec3{
+    font-size: 2rem;
+    color: var(--cinza);
+    font-weight: 300;
+}
+.pessoas__sec3{
+    margin: 9rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.card__sec3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.card__sec3 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.card__sec3 p{
+    font-size: 1.5rem;
+    color: var(--cinza);
+    font-weight: 400;
+}
+.nome__pessoa{
+    font-size: 2rem;
+}
+.icone__pessoa{
+    border-radius: 50%;
+}
+footer{
+    background-color: #C4C4C4;
+    height: 6rem;
+    display: flex;
+    justify-content: end;
+}
+.rodape p{
+    font-size: 1.5rem;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 2rem;
+    margin-right: 8vh;
+    margin-top: 2rem;
+}
+.menu__hamburguer{
+    display: none;
+}
